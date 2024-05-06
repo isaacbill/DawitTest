@@ -21,7 +21,7 @@ Install project dependencies: npm install
 **Database Setup
 Laravel Backend:**
 Create a MySQL database.
-Copy the .env.example file to .env: cp .env.example .env
+Copy the .env.example file to .env: 
 Update the database connection details in the .env file.
 Run database migrations to create tables: php artisan migrate
 
@@ -29,6 +29,8 @@ Run database migrations to create tables: php artisan migrate
 **Laravel Backend:**
 Start the Laravel development server: php artisan serve
 The backend API will be available at http://localhost:8000
+create a user in the users table and use B-crypt generator to generate encoded password
+use the details for basic Authentication
 **Angular Frontend:**
 Start the Angular development server: ng serve
 The frontend application will be available at http://localhost:4200
