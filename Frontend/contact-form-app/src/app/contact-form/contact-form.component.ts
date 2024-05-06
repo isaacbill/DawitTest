@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-contact-form',
   templateUrl: './contact-form.component.html',
-  styleUrl: './contact-form.component.css'
+  styleUrl: './contact-form.component.css',
+  standalone: true
 })
 export class ContactFormComponent {
 
@@ -20,7 +21,7 @@ export class ContactFormComponent {
 
   submitForm() {
     this.submitting = true;
-    this.http.post<any>('http://localhost:8000/api/inquiries', this.formData)
+    this.http.post<any>('http://127.0.0.1:8000/api/inquiries', this.formData)
       .subscribe(
         response => {
           console.log('Submission successful:', response);
