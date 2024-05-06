@@ -10,12 +10,12 @@ Frontend Setup
 **Dependencies Installation**
 **Laravel Backend:**
 Make sure you have PHP and Composer installed.
-Clone the repository: git clone <repository_url>
+Clone the repository: git clone <(https://github.com/isaacbill/DawitTest.git)>
 Navigate to the backend directory: cd DawitInsurance
 Install Laravel dependencies: composer install
 **Angular Frontend:**
 Make sure you have Node.js and npm installed.
-Navigate to the frontend directory: cd DawitTest\contact-form-app
+Navigate to the frontend directory: cd Frontend\contact-form-app
 Install Angular CLI globally: npm install -g @angular/cli
 Install project dependencies: npm install
 **Database Setup
